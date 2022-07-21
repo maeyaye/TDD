@@ -1,3 +1,5 @@
+#mae demagante
+
 import pytest
 
 class Calculator:
@@ -12,7 +14,7 @@ print(calc.add(1, 1))
 
 def test_add():
     assert calc.add(1,1,1) == 2
-    assert calc.add(1,1.0,2.5) == 3.5
+    assert calc.add(1,1.0,2.5) == 3.5   
     assert calc.add(1,0,0) == 0
     assert calc.add(1,-5,-6) == -11
     
